@@ -1,3 +1,21 @@
+
+
 .bodyBG {
     background: url(/img/bg-pattern.png) repeat, linear-gradient(to right, #dc2430,#7b4397);
 }
+
+.btn {
+    border-radius: 10rem;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 0.7rem;
+    padding: 1rem 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid;
+  }
+
+  .btn:hover {
+    border: 1px solid #fdcc52;
+    background-color: #fdcc52;
+    transition: all .3s;
+  }
