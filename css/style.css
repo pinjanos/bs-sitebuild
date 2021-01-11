@@ -4,6 +4,10 @@
     background: url(/img/bg-pattern.png) repeat, linear-gradient(to right, #dc2430,#7b4397);
 }
 
+.discoverBg {
+    background-color: rgba(254, 198, 63);
+}
+
 .btn {
     border-radius: 10rem;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
@@ -19,3 +23,30 @@
     background-color: #fdcc52;
     transition: all .3s;
   }
+
+  .navbar .navbar-brand {
+    color: #fdcc52 !important; 
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 100;
+    font-size: 1rem;
+  }
+
+  .navbar .navbar-brand:hover {
+    color: #fff !important;
+    transition: all .3s;
+  }
+     
+  .navbar .navbar-nav .nav-item {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    color: #222;
+  }
+
+  .doubleMobilImg {
+    width: 432px;
+    height: 868px;
+    background-image: url("/img/demo-screen-1.jpg"), url("/img/phone.png");
+    background-size: 90%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center ;
+}
+  
